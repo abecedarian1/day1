@@ -9,3 +9,10 @@ def index(request):
     print("这是第一个视图")
 
     return HttpResponse("KO")
+
+
+def user_login(request):
+
+    print("这是dev上的视图")
+
+    return HttpResponse("yes")
