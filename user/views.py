@@ -12,7 +12,12 @@ def index(request):
 
 
 def user_login(request):
-
     print("这是dev上的视图")
 
     return HttpResponse("yes")
+
+
+def test(request):
+    print("这是测试视图")
+
+    return HttpResponse("测试")
